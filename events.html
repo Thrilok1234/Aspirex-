@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARME</title>
+</head>
+<body>
+
+
+    <nav class="bg-black text-white p-6 fixed top-0 left-0 w-full shadow-lg z-10">
+        <div class="container mx-auto flex justify-between items-center">
+            
+            <div class="flex items-center space-x-4">
+                <img src="https://th.bing.com/th/id/OIP.okV3H-hrX0rLLq6O-FBArwAAAA?rs=1&pid=ImgDetMain" alt="MIT Logo" class="h-20 w-24 object-cover"> <!-- Replace 'mit-logo.png' with actual MIT logo -->
+                <span class="text-3xl">MADRAS INSTITUTE OF TECHNOLOGY</span> 
+            </div>
+
+            
+            <ul class="hidden md:flex space-x-11">
+                <li><a href="arme.html" class="hover:text-gray-400">Home</a></li>
+                <li><a href="#" class="hover:text-gray-400">Events</a></li>
+                <li><a href="#" class="hover:text-gray-400">Workshops</a></li>
+                <li><a href="#" class="hover:text-gray-400">Contacts</a></li>
+                <li>
+                    <a href="#" class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md transition-all duration-300">
+                        Register
+                    </a>
+                </li>
+            </ul>
+
+            <!-- hamb. icon-->
+            <button id="menu-btn" class="md:hidden focus:outline-none" onclick="toggleMenu()">
+               
+                <svg class="w-8 h-8 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"/>
+                </svg>
+            </button>
+        </div>
+
+        <div id="mobile-menu" class="hidden md:hidden absolute top-16 left-0 w-full bg-black text-white">
+            <ul class="flex flex-col items-center space-y-4 py-4">
+                <li><a href="#" class="hover:text-gray-400">Home</a></li>
+                <li><a href="#" class="hover:text-gray-400">Events</a></li>
+                <li><a href="#" class="hover:text-gray-400">Workshops</a></li>
+                <li><a href="#" class="hover:text-gray-400">Contacts</a></li>
+                <li>
+                    <a href="#" class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md transition-all duration-300">
+                        Register
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <script>
+
+        function toggleMenu() {
+            const mobileMenu = document.getElementById("mobile-menu");
+            mobileMenu.classList.toggle("hidden");
+        }
+    </script>
+    <center>
+    <div class="mt-40">
+
+        
+        <div class="m-10 bg-gray-100 rounded-xl shadow-lg grid grid-cols-3 overflow-hidden">
+            <div class="col-span-2 text-black">
+                <center><p class="text-4xl pl-2.5 pt-1 font-black">Line Follower</p>
+                <p class="text-justify p-5 text-lg" style="font-size:20px;">
+                    Design and deploy your autonomous marvel to master the art of line tracking! Navigate twists, turns, and 90-degree challenges with precision on a black line over white or white line over black. It's a battle of speed and accuracy where the ultimate champ conquers the course in record time, staying glued to the line from start to victory!
+                </p>
+            <li>
+                    <a href="#" class="bg-yellow-500 hover:bg-yellow-600 text-white px-4 py-2 rounded-md transition-all duration-300" style="font-size:30px;">
+                        Rule
+                  </a>
+                </li> <br>
+            <li>
+                    <a href="#" class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md transition-all duration-300" style="font-size:30px;">
+                        Register
+                    </a>
+                </li> 
+            </div>
+            <div class="col-span-1">
+                <img src="arme-logo.jpeg" class="rounded-r-lg object-cover">
+            </div>
+        </div>
+
+    </div><center>
+    <div class="mt-40">
+
+        
+        <div class="m-10 bg-gray-100 rounded-xl shadow-lg grid grid-cols-3 overflow-hidden">
+            <div class="col-span-2 text-black">
+                <center><p class="text-4xl pl-2.5 pt-1 font-black">Robo Sumo</p>
+                <p class="text-justify p-5 text-lg" style="font-size:20px;">
+                    Robo Sumo is a competitive robotics sport where autonomous robots attempt to push each other out of a circular ring, mimicking the rules and strategies of traditional Japanese sumo wrestling.
+                </p>
+              <li>
+                    <a href="#" class="bg-yellow-500 hover:bg-yellow-600 text-white px-4 py-2 rounded-md transition-all duration-300" style="font-size:30px;">
+                        Rule
+                  </a>
+                </li> <br>
+            <li>
+                    <a href="#" class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md transition-all duration-300" style="font-size:30px;">
+                        Register
+                    </a>
+                </li> 
+            </div>
+            <div class="col-span-1">
+                <img src="arme-logo.jpeg" class="rounded-r-lg object-cover">
+            </div>
+        </div>
+
+    </div><center>
+    <div class="mt-40">
+
+        
+        <div class="m-10 bg-gray-100 rounded-xl shadow-lg grid grid-cols-3 overflow-hidden" >
+            <div class="col-span-2 text-black">
+                <center><p class="text-4xl pl-2.5 pt-1 font-black">Robo Soccer</p>
+                <p class="text-justify p-5 text-lg" style="font-size:20px;">
+                    Enter the Arena of Futuristic Soccer supremacy! Command your remote-controlled/ wired or wireless robot, to dominate the specially designed robotic soccer battleground. Score big, strategize smart, and outmaneuver your opponents to clinch victory.
+                </p>
+                <li>
+                    <a href="#" class="bg-yellow-500 hover:bg-yellow-600 text-white px-4 py-2 rounded-md transition-all duration-300" style="font-size:30px;">
+                        Rule
+                  </a>
+                </li> <br>
+            <li>
+                    <a href="#" class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md transition-all duration-300" style="font-size:30px;">
+                        Register
+                    </a>
+                </li> 
+            </div>
+            <div class="col-span-1">
+                <img src="arme-logo.jpeg" class="rounded-r-lg object-cover">
+            </div>
+        </div>
+
+    </div>
+    <div class="mt-40">
+
+        
+        <div class="m-10 bg-gray-100 rounded-xl shadow-lg grid grid-cols-3 overflow-hidden" >
+            <div class="col-span-2 text-black">
+                <center><p class="text-4xl pl-2.5 pt-1 font-black">Code Chef</p>
+                <p class="text-justify p-5 text-lg" style="font-size:20px;">
+                    The CodeChef Challenge is a thrilling coding competition designed to test your problem-solving abilities and algorithmic skills. Compete with fellow programmers and showcase your coding prowess.
+                </p>
+                <li>
+                    <a href="#" class="bg-yellow-500 hover:bg-yellow-600 text-white px-4 py-2 rounded-md transition-all duration-300" style="font-size:30px;">
+                        Rule
+                  </a>
+                </li> <br>
+            <li>
+                    <a href="#" class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md transition-all duration-300" style="font-size:30px;">
+                        Register
+                    </a>
+                </li> 
+            </div>
+            <div class="col-span-1">
+                <img src="arme-logo.jpeg" class="rounded-r-lg object-cover">
+            </div>
+        </div>
+
+    </div>
+    <div class="mt-40">
+
+        
+        <div class="m-10 bg-gray-100 rounded-xl shadow-lg grid grid-cols-3 overflow-hidden" >
+            <div class="col-span-2 text-black">
+                <center><p class="text-4xl pl-2.5 pt-1 font-black">Design Challenge</p>
+                <p class="text-justify p-5 text-lg" style="font-size:20px;">
+                    The Design Challenge is your chance to showcase your CAD designing and creative engineering skills. Whether you're creating mechanical parts, robot models, or product prototypes, this is your platform to shine.
+                </p>
+                <li>
+                    <a href="#" class="bg-yellow-500 hover:bg-yellow-600 text-white px-4 py-2 rounded-md transition-all duration-300" style="font-size:30px;">
+                        Rule
+                  </a>
+                </li> <br>
+            <li>
+                    <a href="#" class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md transition-all duration-300" style="font-size:30px;">
+                        Register
+                    </a>
+                </li> 
+            </div>
+            <div class="col-span-1">
+                <img src="arme-logo.jpeg" class="rounded-r-lg object-cover">
+            </div>
+        </div>
+
+    </div>
+    <div class="mt-40">
+
+        
+        <div class="m-10 bg-gray-100 rounded-xl shadow-lg grid grid-cols-3 overflow-hidden" >
+            <div class="col-span-2 text-black">
+                <center><p class="text-4xl pl-2.5 pt-1 font-black">Project Presentation</p>
+                <p class="text-justify p-5 text-lg" style="font-size:20px;">
+                    The Project Presentation event invites you to demonstrate your innovative projects in robotics, IoT, automation, AI, and more. Share your technical expertise and impress the judges with your creativity.
+                </p>
+             
+                
+                <li>
+                    <a href="#" class="bg-yellow-500 hover:bg-yellow-600 text-white px-4 py-2 rounded-md transition-all duration-300" style="font-size:30px;">
+                        Rule
+                  </a>
+                </li> <br>
+            <li>
+                    <a href="#" class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md transition-all duration-300" style="font-size:30px;">
+                        Register
+                    </a>
+                </li> 
+            </div>
+            <div class="col-span-1">
+                <img src="arme-logo.jpeg" class="rounded-r-lg object-cover">
+            </div>
+        </div>
+
+    </div>
+<style>
+   .mt-40{ 
+         
+         width:1200px;}
+</style>
+</body>
+</html>

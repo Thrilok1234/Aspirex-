@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARME</title>
+</head>
+<body>
+
+
+    <nav class="bg-black text-white p-6 fixed top-0 left-0 w-full shadow-lg z-10">
+        <div class="container mx-auto flex justify-between items-center">
+            
+            <div class="flex items-center space-x-4">
+                <img src="https://th.bing.com/th/id/OIP.okV3H-hrX0rLLq6O-FBArwAAAA?rs=1&pid=ImgDetMain" alt="MIT Logo" class="h-20 w-24 object-cover"> <!-- Replace 'mit-logo.png' with actual MIT logo -->
+                <span class="text-3xl">MADRAS INSTITUTE OF TECHNOLOGY</span> 
+            </div>
+
+            
+            <ul class="hidden md:flex space-x-11">
+                <li><a href="arme.html" class="hover:text-gray-400">Home</a></li>
+                <li><a href="#" class="hover:text-gray-400">Events</a></li>
+                <li><a href="#" class="hover:text-gray-400">Workshops</a></li>
+                <li><a href="#" class="hover:text-gray-400">Contacts</a></li>
+                <li>
+                    <a href="#" class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md transition-all duration-300">
+                        Register
+                    </a>
+                </li>
+            </ul>
+
+            <!-- hamb. icon-->
+            <button id="menu-btn" class="md:hidden focus:outline-none" onclick="toggleMenu()">
+               
+                <svg class="w-8 h-8 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"/>
+                </svg>
+            </button>
+        </div>
+
+        <div id="mobile-menu" class="hidden md:hidden absolute top-16 left-0 w-full bg-black text-white">
+            <ul class="flex flex-col items-center space-y-4 py-4">
+                <li><a href="#" class="hover:text-gray-400">Home</a></li>
+                <li><a href="#" class="hover:text-gray-400">Events</a></li>
+                <li><a href="#" class="hover:text-gray-400">Workshops</a></li>
+                <li><a href="#" class="hover:text-gray-400">Contacts</a></li>
+                <li>
+                    <a href="#" class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md transition-all duration-300">
+                        Register
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <script>
+
+        function toggleMenu() {
+            const mobileMenu = document.getElementById("mobile-menu");
+            mobileMenu.classList.toggle("hidden");
+        }
+    </script>
+    <center>
+    <div class="mt-40">
+
+        
+        <div class="m-10 bg-gray-100 rounded-xl shadow-lg grid grid-cols-3 overflow-hidden">
+            <div class="col-span-2 text-black">
+                <center><p class="text-4xl pl-2.5 pt-1 font-black">Arduino Workshop</p>
+                <p class="text-justify p-5 text-lg" style="font-size:20px;">
+                    
+                </p>
+            
+            <li>
+                    <a href="#" class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md transition-all duration-300" style="font-size:30px;">
+                        Register
+                    </a>
+                </li> 
+            </div>
+            <div class="col-span-1">
+                <img src="arme-logo.jpeg" class="rounded-r-lg object-cover">
+            </div>
+        </div>
+
+    </div><center>
+    <div class="mt-40">
+
+        
+        <div class="m-10 bg-gray-100 rounded-xl shadow-lg grid grid-cols-3 overflow-hidden">
+            <div class="col-span-2 text-black">
+                <center><p class="text-4xl pl-2.5 pt-1 font-black">Open CV</p>
+                <p class="text-justify p-5 text-lg" style="font-size:20px;">
+                    
+                </p>
+              
+            <li>
+                    <a href="#" class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md transition-all duration-300" style="font-size:30px;">
+                        Register
+                    </a>
+                </li> 
+            </div>
+            <div class="col-span-1">
+                <img src="arme-logo.jpeg" class="rounded-r-lg object-cover">
+            </div>
+        </div>
+
+    </div><center>
+    <div class="mt-40">
+
+        
+        <div class="m-10 bg-gray-100 rounded-xl shadow-lg grid grid-cols-3 overflow-hidden" >
+            <div class="col-span-2 text-black">
+                <center><p class="text-4xl pl-2.5 pt-1 font-black">Solid Works</p>
+                <p class="text-justify p-5 text-lg" style="font-size:20px;">
+                    A CAD (Computer-Aided Design) workshop is a hands-on session where participants learn to use specialized software to create, modify, and optimize 2D and 3D models for engineering, architecture, or product design..
+                </p>
+                 <br>
+            <li>
+                    <a href="#" class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md transition-all duration-300" style="font-size:30px;">
+                        Register
+                    </a>
+                </li> 
+            </div>
+            <div class="col-span-1">
+                <img src="arme-logo.jpeg" class="rounded-r-lg object-cover">
+            </div>
+        </div>
+
+    </div>
+    <style>
+   .mt-40{ 
+         
+         width:1200px;}
+</style>
+</body>
+</html>
