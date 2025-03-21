@@ -11,8 +11,7 @@
 
     <nav class="bg-black text-white p-6 fixed top-0 left-0 w-full shadow-lg z-10">
         <div class="container mx-auto flex justify-between items-center">
-           
-
+            
             <div class="flex items-center space-x-4">
                 <img src="https://th.bing.com/th/id/OIP.okV3H-hrX0rLLq6O-FBArwAAAA?rs=1&pid=ImgDetMain" alt="MIT Logo" class="h-20 w-24 object-cover"> <!-- Replace 'mit-logo.png' with actual MIT logo -->
                 <span class="text-3xl">MADRAS INSTITUTE OF TECHNOLOGY</span> 
@@ -31,15 +30,15 @@
                 </li>
             </ul>
 
-            <!--for mobile use-->
-            <button id="menu-btn" class="md:hidden focus:outline-none">
+            <!-- hamb. icon-->
+            <button id="menu-btn" class="md:hidden focus:outline-none" onclick="toggleMenu()">
+               
                 <svg class="w-8 h-8 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"/>
                 </svg>
             </button>
         </div>
 
-        
         <div id="mobile-menu" class="hidden md:hidden absolute top-16 left-0 w-full bg-black text-white">
             <ul class="flex flex-col items-center space-y-4 py-4">
                 <li><a href="#" class="hover:text-gray-400">Home</a></li>
@@ -55,17 +54,17 @@
         </div>
     </nav>
 
-    
     <script>
+
         function toggleMenu() {
-            document.getElementById("mobile-menu").classList.toggle("hidden");
+            const mobileMenu = document.getElementById("mobile-menu");
+            mobileMenu.classList.toggle("hidden");
         }
     </script>
-    <button id="menu-btn" onclick="toggleMenu()"> ☰ </button>
-    
-    <div class="mt-32">
 
-       
+    <div class="mt-40">
+
+        
         <div class="m-10 bg-gray-100 rounded-xl shadow-lg grid grid-cols-3 overflow-hidden">
             <div class="col-span-2 text-black">
                 <p class="text-8xl pl-5 pt-2 font-black">ARME</p>
