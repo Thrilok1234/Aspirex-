@@ -1,6 +1,10 @@
 # Aspirex-
-New repo
+anaithu velaigalum sirapaaga mudinthathu, maja.
 
+![image](https://i.redd.it/0jwnexht9yyb1.jpg)
+
+
+extra details.
 1. using tailwind
 2. docs: https://tailwindcss.com/docs/installation/using-vite
 
